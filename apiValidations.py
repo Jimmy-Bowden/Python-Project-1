@@ -20,7 +20,7 @@ for book in dict_response2:
 expectedBook = {
     "book_name": "Learn API Automation with RestAssured",
     "isbn": "RGHCC",
-    "aisle": "12239c"
+    "aisle": "12239"
 }
 
 assert assertBook == expectedBook
